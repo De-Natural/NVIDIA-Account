@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background: #EEEEEE;
+}
+.cover{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    /* display: none; */
+}
+.cancel{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    /* border: 1px solid red; */
+}
+.deposit{
+    height: 500px;
+    width: 60%;
+    background: #FFFFFF;
+    display: grid;
+    place-items: center;
+    margin: 50px auto;
+    box-shadow: 2px 2px 12px 2px gray;
+    z-index: 3;
+    position: relative;
+}
+.deposit_box{
+    height: 450px;
+    width: 90%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.deposit_box p{
+    height: 25px;
+    width: 150px;
+    /* border: 1px solid red; */
+    transform: translateX(-190%);
+    margin-top: 40px;
+}
+.first_box{
+    height: 70px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+#input {
+    position: relative;
+    display: inline-block;
+    background: #F3F4F6B2;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.option{
+    height: 30px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .mark{
+    height: 25px;
+    border: 1px solid red;
+} */
+#custom {
+    height: 50px;
+    position: relative;
+    display: inline-block;
+    background: #F3F4F6B2;
+    padding: 10px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.options-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: blue;
+    z-index: 3;
+}
+.opt {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.opt:hover {
+    background-color: #f0f0f0;
+}
+.mark {
+    height: 30px;
+    width: 80%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.bag {
+    width: 30px;
+    height: inherit;
+    /* border: 1px solid blue; */
+    margin-right: 5px;
+}
+.bag img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+#fly {
+    cursor: pointer;
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+#selected-option {
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+
+.left{
+    height: 80px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+.left p{
+    height: 25px;
+    width: 150px;
+    /* border: 1px solid red; */
+    margin-top: 0;
+    transform: translateX(0);
+}
+#input{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+}
+.second_box, .third, .fifth{
+    height: 50px;
+    width: 100%;
+    background: #F3F4F6B2;
+}
+.third input{
+    height: inherit;
+    width: 200px;
+    outline: none;
+    background-color: transparent;
+    text-indent: 30px;
+    border: none;
+}
+.fourth{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: transparent;
+    margin-bottom: 20px;
+}
+.fourth button{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+    border: none;
+    background: #F3F4F6B2;
+    cursor: pointer;
+}
+
+
+
+@media(max-width: 960px) {
+    .cover{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cancel{
+        top: 2px;
+    }
+    .deposit{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        /* border: 1px solid red; */
+        box-shadow: none;
+    }
+    .deposit_box{
+        height: inherit;
+        width: 90%;
+        text-align: left;
+        /* border: 1px solid blueviolet; */
+    }
+    .deposit_box p{
+        transform: translateX(0);
+    }
+    .first_box p{
+        margin-top: 10px;
+        transform: translateX(0);
+    }
+    .first_box{
+        height: 180px;
+        width: 100%;
+        flex-direction: column;
+        /* border: 1px solid green; */
+    }
+    .left{
+        width: 100%;
+    }
+    .mark {
+        width: 80%;
+    }
+}
