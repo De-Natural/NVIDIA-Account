@@ -10,17 +10,17 @@ const arrays = [
     {
         Image: '/Images/google.png',
         description: 'Log in with Google',
-        link: 'https://accounts.google.com/o/oauth2/v2/auth/oauthchooseaccount?scope=openid%20email&response_type=code&redirect_uri=https%3A%2F%2Faccounts.nvgs.nvidia.com%2Fsys%2Fauthentication%2Fexternal%2Fredirect&state=eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbklkIjoiMTMwOTE0NjQ2OTg4OTIxMjQxNiIsImp0aSI6Ijk5YjI2YzczLTg5ZmYtNGEyNy04ZWM1LWI4Yzg4ZjA4NzE0ZCJ9.kbDhQh1V9GmftzBr6IDBijUndQQxRGyW6aPFndBlda8&client_id=155210405517-kbt47nvbj2s2gs29k1l4al4qeo8cqp7s.apps.googleusercontent.com&service=lso&o2v=2&ddm=1&flowName=GeneralOAuthFlow'
+        link: ''
     },
     {
         Image: '/Images/discord-logo.png',
         description: 'Log in with discord',
-        link: 'https://discord.com/login?redirect_to=%2Foauth2%2Fauthorize%3Fscope%3Didentify%2520email%26response_type%3Dcode%26redirect_uri%3Dhttps%253A%252F%252Faccounts.nvgs.nvidia.com%252Fsys%252Fauthentication%252Fexternal%252Fredirect%26state%3DeyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbklkIjoiMTMwOTE0ODAzNDAyMzgxMzEyMCIsImp0aSI6ImIwZDJmNjA1LWVlZDktNGRhNy1hZjU2LWU4NjNkMjM1NDc3MiJ9.y-xahoeGjrUFRz9HIi9xL0mgo0VeOTR93n2q0fQH6a4%26client_id%3D915032111914827866'
+        link: ''
     },
     {
         Image: '/Images/apple.png',
         description: 'Log in with Apple',
-        link: 'https://appleid.apple.com/auth/authorize?scope=openid%20email&response_type=code%20id_token&redirect_uri=https%3A%2F%2Faccounts.nvgs.nvidia.com%2Fsys%2Fauthentication%2Fexternal%2Fredirect&state=%22eyJhbGciOiJIUzI1NiJ9.eyJ0b2tlbklkIjoiMTMwOTE0ODI0OTAxMTA5NzYwMCIsImp0aSI6IjU4MDlhM2M3LWYzZTQtNGJkZi1iN2M0LWMwN2E1ZWJiZGVhZiJ9.jGlXHfZCkd8dyTY4nNfTs9ut1FLiTdxGbUwM4ABsI84%22&client_id=com.nvidia.nvidm.login&response_mode=form_post'
+        link: ''
     },
     {
         Image: '/Images/facebook.png',
