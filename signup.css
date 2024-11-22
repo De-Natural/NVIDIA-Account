@@ -1,4 +1,4 @@
-
+/* 
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +9,6 @@ html{
 }
 .container{
     height: 100%;
-    /* min-height: 200px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +17,6 @@ html{
     z-index: 1;
 }
 .above_div{
-    /* border: 1px solid; */
     height: 30px;
     width: 100px;
     display: flex;
@@ -31,7 +29,6 @@ html{
 }
 #icon{
     width: 40px;
-    /* border: 1px solid red; */
 }
 #icon>img{
     height: 100%;
@@ -71,7 +68,6 @@ main{
 }
 form{
     width: 60%;
-    /* border: 1px solid blue; */
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -84,7 +80,6 @@ aside{
     display: flex;
     align-items: center;
     gap: 15px;
-    /* border: 1px solid rebeccapurple; */
 }
 aside span{
     width: 80% !important;
@@ -105,7 +100,6 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border: 1px solid red; */
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -126,12 +120,10 @@ section{
     margin: 0 auto;
     cursor: pointer;
     border: none;
-    /* background: gray; */
     color: lightgray;
     cursor: not-allowed;
 }
 figure{
-    /* border: 1px solid red; */
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -174,7 +166,6 @@ article{
     border: 1px solid;
     display: flex;
     flex-direction: column;
-    /* gap: 15px; */
 }
 article>input{
     width: 80%;
@@ -191,7 +182,6 @@ footer{
     height: 120px;
     width: 100%;
     display: flex;
-    /* gap: 20px; */
     justify-content: space-between;
     background-color: transparent;
 }
@@ -204,7 +194,6 @@ footer{
     justify-content: center;
     gap: 10px;
     flex-direction: column;
-    /* border: 1px solid green; */
 }
 .lefthand a{
     text-decoration: none;
@@ -218,10 +207,8 @@ footer{
     align-items: flex-start;
     background: transparent;
     padding: 20px;
-    /* border: 1px solid #ccc; */
     margin-right: 80px;
     border-radius: 8px;
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
 }
 
 .country-selector label {
@@ -270,4 +257,4 @@ p.error {
         margin-left: 0;
         margin: 0 auto;
     }
-}
+} */
